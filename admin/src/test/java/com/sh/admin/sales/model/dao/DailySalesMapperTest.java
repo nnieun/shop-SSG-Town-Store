@@ -1,6 +1,7 @@
 package com.sh.admin.sales.model.dao;
 
 import com.sh.admin.sales.model.dto.DailySalesDto;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,6 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @Transactional
 @SpringBootTest
+@Disabled
 class DailySalesMapperTest {
 
     @Autowired

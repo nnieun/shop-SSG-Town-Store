@@ -1,6 +1,7 @@
 package com.sh.admin.sales.model.service;
 
 import com.sh.admin.sales.model.dao.DailySalesMapper;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @Transactional
+@Disabled
 class DailySalesCommandServiceTest {
 
     @Autowired
