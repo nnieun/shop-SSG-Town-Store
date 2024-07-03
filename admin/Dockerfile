@@ -1,6 +1,9 @@
 # base image
 FROM amazoncorretto:17
 
+# image meta
+LABEL maintainer="nnieun<abocado216@naver.com>"
+
 # build시 사용할 변수 선언
 ARG JAR_FILE_PATH=build/libs/*.jar
 
